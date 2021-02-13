@@ -1,2 +1,2 @@
 # Quiz-App
-this is a personal project that I have worked on for practicing Django and Javascript
+This is a personal beginners level project that I have worked on, for practicing Django and Javascript.

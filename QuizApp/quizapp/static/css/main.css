@@ -1,0 +1,61 @@
+body{
+    background-color: coral;
+    padding-bottom: 60px;
+}
+div#goto-quiz , .question1, .question2, .question3, .question4, .question5, .question6, .question7, .result{
+    background-color: cornsilk;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+}
+span.qq{
+    display: flex;
+    background-color: lightcoral;
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px #888888;
+}
+span.qq:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+
+#q2, #q3, #q4, #q5, #q6, #q7, #q8{
+  display: none;
+}
+
+span.sn-btn{
+    background-color: firebrick;
+    color: floralwhite;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+span.sn-btn:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+span.qq.toggled {
+    background-color: coral;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

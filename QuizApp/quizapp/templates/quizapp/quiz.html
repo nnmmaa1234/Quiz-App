@@ -1,0 +1,96 @@
+{% extends 'base_page.html' %}
+
+{% block content %}
+<div class="question1" id="q1">
+    <h1>Question 1</h1><hr>
+    
+    <p>Javascript is has syntax similar to:</p>
+        <span class="qq" id="q1a">A) Python</span>
+        <span class="qq" id="q1b" onclick="this.onclick=null;">B) C++</span>
+        <span class="qq" id="q1c">C) FORTRAN</span>
+        <span class="qq" id="q1d">D) BASIC</span>
+    <br><span onclick="switchVisible1()" class="sn-btn">Save & Next</span>
+    
+</div>
+<div class="question2" id="q2">
+    <h1>Question 2</h1><hr>
+    
+        <p>Javascript was launched in:</p>
+        <span class="qq" id="q2a">A) 1991</span>
+        <span class="qq" id="q2b">B) 1994</span>
+        <span class="qq" id="q2c">C) 1993</span>
+        <span class="qq" id="q2d" onclick="this.onclick=null;">D) 1995</span>
+    <br><span onclick="switchVisible2()" class="sn-btn">Save & Next</span>
+    
+</div>
+<div class="question3" id="q3">
+    <h1>Question 3</h1><hr>
+    
+        <p>Javascript was designed by:</p>
+        <span class="qq" id="q3a" onclick="this.onclick=null;">A) Brenden Eich</span>
+        <span class="qq" id="q3b">B) Mark Zuckerberg</span>
+        <span class="qq" id="q3c">C) Larry Page</span>
+        <span class="qq" id="q3d">D) Jeff Bezos</span>
+    <br><span onclick="switchVisible3()" class="sn-btn">Save & Next</span>
+    
+</div>
+<div class="question4" id="q4">
+    <h1>Question 4</h1><hr>
+    
+        <p>Javascript has ______ number of primitive data types.</p>
+        <span class="qq" id="q4a">A) 3</span>
+        <span class="qq" id="q4b">B) 2</span>
+        <span class="qq" id="q4c" onclick="this.onclick=null;">C) 4</span>
+        <span class="qq" id="q4d">D) 1</span>
+    <br><span onclick="switchVisible4()" class="sn-btn">Save & Next</span>
+    
+</div>
+<div class="question5" id="q5">
+    <h1>Question 5</h1><hr>
+    
+        <p>Which statement is true?</p>
+        <span class="qq" id="q5a">A) JS is used for cleaning the web browser.</span>
+        <span class="qq" id="q5b" onclick="this.onclick=null;">B) JS is used in front-end as well as backend development.</span>
+        <span class="qq" id="q5c">C) JS has 10 datatypes.</span>
+        <span class="qq" id="q5d">D) Python is an older language than JS.</span>
+    <br><span onclick="switchVisible5()" class="sn-btn">Save & Next</span>
+    
+</div>
+<div class="question6" id="q6">
+    <h1>Question 6</h1><hr>
+    
+        <p>JavaScript supports regular expressions in a manner similar to:</p>
+        <span class="qq" id="q6a" onclick="this.onclick=null;">A) Perl.</span>
+        <span class="qq" id="q6b">B) Java.</span>
+        <span class="qq" id="q6c">C) HTML.</span>
+        <span class="qq" id="q6d">D) CSS.</span>
+    <br><span onclick="switchVisible6()" class="sn-btn">Save & Next</span>
+    
+</div>
+<div class="question7" id="q7">
+    <h1>Question 7</h1><hr>
+    
+        <p>JavaScript is _________ - threaded.</p>
+        <span class="qq" id="q7a">A) multi</span>
+        <span class="qq" id="q7b">B) double</span>
+        <span class="qq" id="q7c" onclick="this.onclick=null;">C) single</span>
+        <span class="qq" id="q7d">D) triple</span>
+        <br><span onclick="switchVisible7()" class="sn-btn">Save & Show Result</span>
+    
+</div>
+<div class="result" id="q8">
+    <h1>Final Score</h1><hr>
+    <div>
+        <p>Here is your score: 
+            <span id="score"></span><br>
+            <h3 id="comment"></h3>
+        </p>
+        <!-- <form action="/save_marks/" method="post">
+            <label for="#marks">@{{ user.username }} would you like to save your score?</label>
+            <input type="submit" id="marks" value="Save"><br>
+            <input type="submit" value="Cancel">
+        </form> -->
+    </div>
+</div>
+
+{% endblock %}
